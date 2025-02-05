@@ -1,0 +1,101 @@
+// connected graph, not length, with ring
+9 9
+0 1
+0 2
+1 5
+2 3
+3 4
+3 6
+3 7
+4 8
+6 8
+
+// directional connected graph with ring.
+5 7
+0 1
+0 2
+0 3
+1 2
+2 3
+3 4
+4 3
+
+
+// connected graph, with length, with ring.
+9 9
+0 1 2
+0 2 4
+1 5 3
+2 3 1
+3 4 3
+3 6 2
+3 7 5
+4 8 7
+6 8 5
+
+
+// disconnected graph, no length, with ring.
+11 13
+0 1
+0 3
+1 2
+2 3
+3 4
+3 6
+4 5
+5 6
+5 7
+6 7
+8 9
+8 10
+9 10
+
+// a tree, with no length.
+9 8
+0 1
+0 2
+1 5
+2 3
+3 4
+3 6
+3 7
+6 8
+
+
+// the connected weighted graph to demonstrate Kruscal algorithm.
+
+7 11
+A B 7
+A D 5
+B C 8
+B D 9
+B E 7
+C E 5
+D E 15
+D F 6
+E F 8
+E G 9
+F G 11
+
+
+// a connected graph for shortest path algorithm
+
+10 17
+0 1 1
+0 2 3
+0 4 4
+1 2 1
+1 3 4
+2 3 1
+2 4 2
+3 7 2
+3 8 3
+4 5 2
+4 6 3
+4 7 4
+5 6 2
+6 7 1
+6 9 7
+7 8 2
+8 9 3
+
